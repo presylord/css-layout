@@ -56,7 +56,6 @@ body {
   ); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, #56b870 0%, #a5c956 100%); /* IE10+ */
   background: linear-gradient(top, #56b870 0%, #a5c956 100%); /* W3C */
-  height: 50px;
 }
 
 /***********************************************************************
@@ -159,6 +158,26 @@ body {
   ); /* W3C */
 }
 
+.navbar {
+  padding: 0;
+  font-size: 20px;
+}
+.navbar ul {
+  display: flex;
+}
+.push {
+  margin-left: auto;
+}
+
+li {
+  padding: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
 .items {
   display: grid;
   gap: 30px;
