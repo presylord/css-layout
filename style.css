@@ -83,7 +83,6 @@ body {
   ); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, #c655be 0%, #cf0404 100%); /* IE10+ */
   background: linear-gradient(top, #c655be 0%, #cf0404 100%); /* W3C */
-  height: 500px;
 }
 
 /***********************************************************************
@@ -157,7 +156,7 @@ body {
     #4096ee 100%
   ); /* W3C */
 }
-
+/* Navbar */
 .navbar {
   padding: 0;
   font-size: 20px;
@@ -178,15 +177,28 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* cover-container */
+
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+/* items */
 .items {
   display: grid;
+  padding: 50px;
   gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .item {
   background-color: rgb(48, 48, 48);
+  padding: 100px;
 }
 
-img {
+.item img {
   width: 100%;
 }
